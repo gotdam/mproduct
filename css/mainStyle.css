@@ -1,0 +1,166 @@
+<style>
+
+    .mProduct .logo {
+	    margin: 60px auto 0;
+	    padding: 15px;
+	    text-align: center;
+	}
+
+	.mProduct .logo {
+	    margin: 15px auto 0;
+	}
+
+    .mProduct {
+	    background-color: #ffc0cb !important;
+	    color: #333;
+		padding: 0!important;
+		margin: 0!important;
+		direction: "ltr";
+		font-size: 14px !important;
+	}
+
+    label {
+    	color: #495057!important;
+    }
+
+	.mForm:hover {
+	  	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	}
+
+	.mForm {
+	    background-color: #eceef1;
+	    -webkit-border-radius: 7px;
+	    -moz-border-radius: 7px;
+	    -ms-border-radius: 7px;
+	    -o-border-radius: 7px;
+	    border-radius: 7px;
+	    width: 400px;
+	    margin: 15px auto 10px;
+	    padding: 15px 30px 15px;
+	    overflow: hidden;
+	    position: relative;
+	    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	  	transition: 0.3s;
+	  	width: 100%;
+	}
+
+	.mProduct .form-title {
+	    margin-bottom: 0px;
+	}
+
+	.font-green {
+	    color: #e60026!important;
+        font-family: Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+	    font-size: px;
+	    font-weight: 700;
+	}
+
+	.header {
+		padding: 1rem 0 3rem;
+		background: #203a45;
+		background: linear-gradient(90deg,#203a45 0,#294e59);
+	}
+
+	.footer {
+
+	}
+
+	.font-weight-normal {
+	    font-weight: 800!important;
+	}
+
+	.mProduct .content{
+		margin-top: -3em;
+	}
+
+	.mProduct .page-footer {
+		background-color: ;
+	    content: "";
+	    top: 50%;
+	    width: 100%;
+	    height: 30%;
+	}
+
+	.scrollable {
+        height: 28em;
+        overflow-y: scroll;
+    }
+
+    .nav-item a{
+ 	    font-weight: 600;
+		color: #495057;
+    }
+
+    .nav-item a:hover{
+		color: #ff4d6a;
+    }
+
+    .form-check {
+	        margin: 0px 20px;
+    }
+
+    .card-body {
+ 	    font-weight: 600;
+     	text-align: left;
+    }
+
+    .form-control {
+     	border: 1px solid #38667a;
+    }
+
+    .manageBtnGroup {
+     	margin: 0px 7px;
+    }
+
+    #amountProduct{
+     	margin-top: 6px;
+    }
+
+    .nav-card-header{
+		display: none;
+	}
+
+	.nav-item {
+		padding: 5px 0px;
+	}
+
+	.navbar-nav {
+	    text-align: left;
+	}
+
+	.nav-link {
+		cursor: pointer;
+	}
+
+ 	@media only screen and (max-width: 768px) {
+	  	.mForm{
+			padding: 15px 15px 15px;
+		}
+
+		th {
+	     	white-space: nowrap;
+	    }
+
+	    td {
+	     	white-space: nowrap;
+	    }
+
+	    .manageBtnGroup {
+		    margin: 0px 6px;
+		}
+
+		.card-body {
+		    flex: 1 1 auto;
+		    padding: 1.25rem 0.5rem;
+		}
+
+		.card-header{
+			display: none;
+		}
+
+		.nav-card-header{
+			display: block;
+		}
+	}
+
+</style>
